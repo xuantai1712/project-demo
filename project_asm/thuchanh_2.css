@@ -1,0 +1,450 @@
+* {
+  
+    font-family: "Open sans", Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+   
+}
+body {
+    width: 100%;
+    background-image: url('./IMG/BMW.jpg');
+    height: 70%;
+}
+.bmw{
+    width: 90%;
+    margin: auto;
+}
+input:focus{
+    /* cursor: none; */
+    outline:none;
+}
+
+header {
+   
+}
+
+.menu-top__header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+div.logo img {
+    width: 100px;
+    padding: 10px 0 0 10px;
+
+}
+
+
+
+div.menu-items ul {
+    color: #ffffff;
+}
+
+
+div.menu-items li {
+   
+    margin: 0 20px 20px;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+  
+}
+
+div.menu-items ul li a {
+    color:#333;
+    padding: 10px;
+    font-weight:800;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+div.menu-items ul li a:hover{
+  
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #2f3640;
+    color: #fff;
+    
+}
+
+.menu-top-signin a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+div.menu-button {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.menu-button input {
+    position: relative;
+    width: 530px;
+    height: 30px;
+   
+    border: transparent;
+    border-radius: 3px;
+    font-weight: 100;
+  
+
+}
+
+
+
+.btn-sign button {
+    background-color: none;
+    position: absolute;
+    right: 28.5%;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+    
+}
+
+/* Banner */
+
+.banner {
+   
+    height: 410px;
+    width: 100%;
+    background-size: cover;
+    margin: 18px auto;
+   
+}
+.menu-top-signin {
+   
+}
+
+.register-block:hover .register {
+    display: block;
+}
+
+.register-block {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.register {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    padding: 30px;
+    width: 475px;
+    height: auto;
+    background-color: rgb(225, 222, 222);
+    border-radius: 6px;
+    display: none;
+    z-index: 1;
+}
+
+
+.register form h2 {
+    font-size: 30px;
+    font-weight: 800p;
+    margin: 0;
+    padding: 0;
+    color: #666;
+
+}
+
+
+.register form input {
+    display: block;
+    width:100%;
+    color: #8f8f8f;
+    line-height: 38px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 0;
+    margin: 10px 0px;
+    padding-left: 5px;
+}
+
+
+.button-group {
+    display: flex;
+}
+
+.register form button {
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #9e9d9d;
+    padding: 10px 0;
+    width: 224px;
+    height: 65px;
+    border-radius: 3px;
+    border: 0;
+    margin: 0;
+    box-shadow: 0 0 2px;
+
+}
+.register form button input {
+
+}
+.register form button[type=submit] {
+    background-color: #e0741d;
+
+}
+
+.register form button[type=button] {
+    background-color: #72a61a;
+    margin-left: 5px;
+}
+
+.register form button strong {
+    font-size: 19px;
+    display: block;
+}
+
+.register form button small {
+    font-size: 10px;
+    color: hsl(53, 47%, 96%);
+    
+}
+
+.register form.term {
+    font-size: 8px;
+    padding-left: 30px;
+    
+}
+
+
+/* find out more start*/
+a:hover {
+    color: #9b9999;
+}
+
+.find-out-more {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    margin-top: -0.75rem !important;
+}
+
+.find-out-more__item {
+    width: 50%;
+    min-height: 380px;
+    background: #cfc9c9;
+    padding: 34px;
+}
+
+p.title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+a.button-link {
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+a.button-link:hover {
+    color: #615f5f;
+    border-color: #615f5f;
+}
+
+.find-out-more__item.find-out-more__item-left {
+    margin-right: 2px;
+    background-image: url(./IMG/bwm.jpg);
+    background-size: cover;
+    
+    
+   
+}
+
+.find-out-more__item.find-out-more__item-right{
+    margin-left: 2px;
+    background-image: url(./IMG/bwmi3.jpg);
+    background-size: cover;
+}
+/* find out more end*/
+
+
+/* nav */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align:left;
+}
+
+/* Định dạng cho mỗi mục menu */
+.menu li {
+    display: inline-block;
+    /* margin-right: 20px; */
+    padding:20px 10px ;
+}
+
+/* Định dạng cho liên kết trong mục menu */
+.menu li a {
+    text-decoration: none;
+    color:#333;
+    padding: 20px 20px;
+    font-weight: 600;
+   
+}
+
+/* Đổi màu nền và màu chữ khi di chuột qua mục menu */
+.menu li a:hover {
+   color: black;
+    
+}
+
+/*  list product */
+
+
+.box{
+   
+    width: 1000px;
+    height: 800px;
+   
+}
+
+.content{
+    /* position: absolute; */
+    display:flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 360px;
+    margin: 10px;
+
+
+}
+.product-item{
+    width: 300px;
+    height: 360px;
+}
+
+.product-item_color img{
+  width: 27px;
+
+}
+.product-name{
+    color:#262626;
+    font-size: 20px;
+    font-weight:300;
+    line-height: 28px;
+    margin: 0px 0px 8px;
+    padding: 0px 15px 0px 0px;
+}
+.product-title{
+    color:#1c69d4;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.product-price{
+    color:#262626;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px 0px 16px;
+    padding: 0px 15px 0px 0px;
+}
+.product-link {
+    color: #262626;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0px 0px 0px 12px;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+/* footer start*/
+.footer-content {
+   
+    background-color: #e6e6e6;
+    padding: 50px 0px;
+    
+}
+
+.footer-language-social {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.footer-language {
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+a.language-option__vietnam {
+    color: black;
+    padding-right: 10px;
+}
+
+a.language-option__english {
+    color: rgb(83, 83, 83);
+    padding-left: 10px;
+    border-left: 2px solid gray;
+    text-decoration: none;
+}
+
+.language-option {
+    padding-top: 10px;
+}
+
+.footer-social {
+    width: 50%;
+}
+
+.list-social img {
+    width: 45px;
+}
+
+p.footer-title {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #262626;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+}
+
+.footer-about {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.footer-about__item {
+    width: 50%;
+}
+
+ul.footer-list {
+    padding: 0px;
+    list-style: none;
+}
+
+li.footer-list__item {
+    margin: 12px 0px;
+}
+
+li.footer-list__item a {
+    color: #666;
+    text-decoration: none;
+    font-size: 1rem;
+}
+/* footer end*/
