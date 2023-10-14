@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-details {
+    width: 1000px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.product-details .product-image {
+    width: 400px;
+    height: 500px;
+    float: left;
+   
+}
+
+.product-details .product-image .big {
+    border: 1px solid #e5e5e5;
+    display: inline-block;
+    
+    border-radius:4px ;
+}
+
+.product-details .product-image .big .scontent {
+  
+    border: 5px solid #fafafa;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-details .product-image .big .scontent img {
+    vertical-align: middle;
+    width: 386px;
+    height: 280px;
+}
+
+.product-details .product-image .small {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-details .product-image .small .scontent {
+    display: block;
+    width:200px;
+    height: 200px;
+    line-height: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product-details .product-image .small .scontent:hover {
+    transform: scale(1.2, 1.3);
+}
+
+.product-details .product-image .small .scontent img {
+    width: 130px;
+    height: 132px;
+    box-shadow: 2px 2px 2px #d1d8e0;
+}
+
+.product-details .product-image .small .scontent {
+    
+    cursor: pointer;
+}
+
+.product-details .product-info {
+    margin-left: 400px;
+    height: 500px;
+}
+
+.product-details .product-info .title {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+
+.product-details h2 {
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.product-details .product-info .desc {
+    padding: 25px 0px;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: 300;
+    font-family:'Roboto';
+    line-height: 25px;
+}
+
+.product-details .price {
+    border: none;
+    position: relative;
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+   left: 80%;
+   
+}
+
+.product-details .price .detail {
+    margin-top: 20px;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-details .detail p {
+   
+    margin: 10px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.product-details .button {
+    margin: 10px;
+    position: relative;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #696969;
+}
+
+.product-details .button a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-details .button:hover {
+    background-color:green;
+    cursor: pointer;
+}
